@@ -1,22 +1,24 @@
 import logo from './logo.svg';
+import maintainances from './under-maintainance-2.gif';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={maintainances}  alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          The website is under construction. Will Come Soon 😊
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
