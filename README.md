@@ -14,7 +14,7 @@ A simple website on my work experience. You can find my website design [here](ht
 - [x] Init commit
 - [x] Creating base UI WIP
     - [x] Dark mode supported
-- [ ] Deploy on github
+- [x] Deploy on github
 - [ ] Landing Page
     - [ ] Adding button resume download
     - [ ] Adding button portofolio download
