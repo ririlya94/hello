@@ -19,25 +19,12 @@ export const GettingReady: React.FC<GettingReadyProps> = ({
 
     return (
         <>
-            <span className='mt-[81px]' />
+            <span className='mt-[31px]' />
             <TitleX text={"Getting READY!"} />
             <span className='mt-[56px]' />
             <Title1 text={"Stay tune! You can check and reach me out at:- "} textColor={"text-black dark:text-white"} />
             <span className='mt-[56px]' />
             <SocialContainer />
-            {/* <button
-                data-testid='switch-theme-btn'
-                style={{
-                    padding: 5,
-                    borderRadius: 5,
-                    color: currentTheme === 'light' ? 'white' : 'black',
-                    background: currentTheme === 'light' ? 'black' : 'white',
-                }}
-                onClick={() => changeCurrentTheme(currentTheme === 'light' ? 'dark' : 'light')}
-            >
-                Go {currentTheme === 'light' ? 'DARK' : 'LIGHT'} MODE
-            </button> */}
-            {/* <div className="bg-image-one dark:bg-image-two h-screen w-screen bg-cover"></div> */}
         </>
     );
 };

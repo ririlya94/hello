@@ -31,6 +31,7 @@ module.exports = {
           'light': '#B172A5;',
           'medium': '#A178A4;',
           'dark': '#847A9F;',
+          'text-purple': "#BDBDDD"
         },
         light: {
           'light20': '#E3E5E5;',
