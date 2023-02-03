@@ -1,18 +1,18 @@
 import React from "react";
 
-export type TitleXProps = {
+export type Title3Props = {
   text: string;
   textColor: string;
 };
 
-export const TitleX: React.FC<TitleXProps> = ({
+export const Title3: React.FC<Title3Props> = ({
   text,
   textColor
 }) => {
 
   return (
     <>
-      <span className={`text-X ${textColor} font-poppins font-bold`}>
+      <span className={`text-T3 ${textColor} font-poppins font-bold`}>
         {text}
       </span>
     </>

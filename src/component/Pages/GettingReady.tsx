@@ -20,7 +20,7 @@ export const GettingReady: React.FC<GettingReadyProps> = ({
     return (
         <>
             <span className='mt-[31px]' />
-            <TitleX text={"Getting READY!"} />
+            <TitleX text={"Getting READY!"} textColor={"text-black dark:text-white"} />
             <span className='mt-[56px]' />
             <Title1 text={"Stay tune! You can check and reach me out at:- "} textColor={"text-black dark:text-white"} />
             <span className='mt-[56px]' />
